@@ -185,7 +185,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ff0000 !important;
+     border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -236,7 +236,7 @@ button {
     font-size: 18px;
 }
 .bg-light {
-    background-color: #fefeff !important;
+    background-color: #ffbb00 !important;
     box-shadow: 0px 0px 10px 0px;
     border-top: 45px solid #333a44;
 }
