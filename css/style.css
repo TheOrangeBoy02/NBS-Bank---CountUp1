@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @font-face {
-font-family: "Righteous";
+font-family: "MyriadPro";
 src: url("../fonts/Righteous-Regular.ttf");
 src: url("../fonts/Lato-Regular.ttf");
 }
@@ -33,7 +33,7 @@ src: url("../fonts/Lato-Regular.ttf");
 
 * {
      box-sizing: border-box !important;
-     transition: ease all 0.5s;
+     transition: ease all 0.1s;
 }
 
 html {
@@ -283,7 +283,6 @@ button {
     font-size: 50px;
     color: #111111;
     font-weight: 600;
-    text-transform: uppercase;
 
 }
 .controller_text {
@@ -292,17 +291,21 @@ button {
     font-size: 70px;
     color: #e40b0b;
     font-weight: 600;
-    text-transform: uppercase;
     line-height: 50px;
 }
+
+.nav-item:hover{
+
+}
+
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #111111;
     font-weight: 500;
     margin-left: 0px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .shop_bt {
